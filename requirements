@@ -1,0 +1,15 @@
+Run command below to install the virtual environment package:
+    pip3 install virtualenv
+
+Run the command to initiate a virtual environment
+    virtualenv env
+
+Run the command below as an admin to let the activate powershell script Run
+    set-executionpolicy remotesigned
+
+Run the command to activate the virtual environment
+    .\env\Scripts\activate
+
+Run command below to install flask and sql alchemy:
+    pip3 install flask flask-sqlalchemy
+
